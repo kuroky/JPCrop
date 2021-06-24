@@ -37,20 +37,20 @@ extension Croper {
         
         idleGridLayer.frame = bounds
         idleGridLayer.fillColor = UIColor.clear.cgColor
-        idleGridLayer.strokeColor = UIColor(white: 1, alpha: 0.8).cgColor
+        idleGridLayer.strokeColor = UIColor.init(red: 80/255, green: 249/255, blue: 193/255, alpha: 1.0).cgColor
         idleGridLayer.lineWidth = 0.35
         layer.addSublayer(idleGridLayer)
         
         rotateGridLayer.frame = bounds
         rotateGridLayer.fillColor = UIColor.clear.cgColor
-        rotateGridLayer.strokeColor = UIColor(white: 1, alpha: 0.8).cgColor
+        rotateGridLayer.strokeColor = UIColor.init(red: 80/255, green: 249/255, blue: 193/255, alpha: 1.0).cgColor
         rotateGridLayer.lineWidth = 0.35
         rotateGridLayer.opacity = 0
         layer.addSublayer(rotateGridLayer)
         
         borderLayer.frame = bounds
         borderLayer.fillColor = UIColor.clear.cgColor
-        borderLayer.strokeColor = UIColor.white.cgColor
+        borderLayer.strokeColor = UIColor.init(red: 80/255, green: 249/255, blue: 193/255, alpha: 1.0).cgColor
         borderLayer.lineWidth = 1
         layer.addSublayer(borderLayer)
     }

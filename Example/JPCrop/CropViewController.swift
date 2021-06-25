@@ -51,6 +51,7 @@ class CropViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
+        view.backgroundColor = UIColor.green
         navigationController?.setNavigationBarHidden(true, animated: animated)
         navigationController?.interactivePopGestureRecognizer?.isEnabled = false
     }

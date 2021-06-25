@@ -10,7 +10,7 @@ import UIKit
 extension Croper {
     func setupUI() {
         clipsToBounds = true
-        backgroundColor = .black
+        backgroundColor = .clear
         
         scrollView.delegate = self
         scrollView.clipsToBounds = false
